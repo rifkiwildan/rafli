@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ticketing.football.AtmVsSvlController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="415.0" layoutX="-5.0" layoutY="-9.0" stroke="BLACK" strokeType="INSIDE" width="612.0" />
+      <ImageView fitHeight="407.0" fitWidth="364.0" layoutX="155.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@g1.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c7c3c361" height="321.0" layoutX="117.0" layoutY="38.0" stroke="BLACK" strokeType="INSIDE" width="382.0" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="101.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="45.0" fitWidth="36.0" layoutX="157.0" layoutY="244.0">
+         <image>
+            <Image url="@price-tag.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="55.0" fitWidth="59.0" layoutX="376.0" layoutY="50.0">
+         <image>
+            <Image url="@sevila.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="45.0" fitWidth="36.0" layoutX="156.0" layoutY="138.0">
+         <image>
+            <Image url="@149363.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="45.0" fitWidth="47.0" layoutX="151.0" layoutY="192.0">
+         <image>
+            <Image url="@88961.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="55.0" fitWidth="59.0" layoutX="191.0" layoutY="50.0">
+         <image>
+            <Image url="@atletico_de_madrid_shield_detail.png" />
+         </image>
+      </ImageView>
+      <JFXButton layoutX="274.0" layoutY="314.0" onAction="#beli" prefHeight="25.0" prefWidth="67.0" style="-fx-background-color: #c7c3c3;" text="BELI" />
+      <JFXButton layoutX="25.0" layoutY="347.0" onAction="#back" style="-fx-background-color: #c7c3c3;" text="KEMBALI" />
+      <Label layoutX="198.0" layoutY="143.0" text="MINGGU 31 DESEMBER 2017">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="213.0" layoutY="198.0" text="STD VICENTE CALDERON">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="213.0" layoutY="245.0" text="\$ 50">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Label layoutX="300.0" layoutY="50.0" text="Vs">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

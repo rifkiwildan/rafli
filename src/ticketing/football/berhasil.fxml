@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="416.0" layoutX="-9.0" layoutY="-10.0" stroke="BLACK" strokeType="INSIDE" width="615.0" />
+      <ImageView fitHeight="407.0" fitWidth="357.0" layoutX="156.0" layoutY="-5.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@g1.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d5d6d78a" height="297.0" layoutX="125.0" layoutY="53.0" stroke="BLACK" strokeType="INSIDE" width="366.0" />
+      <Label layoutX="135.0" layoutY="-32.0" prefHeight="230.0" prefWidth="374.0" text="SELAMAT TRANSAKSI ANDA">
+         <font>
+            <Font name="Serif Italic" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="210.0" layoutY="109.0" text="BERHASIL">
+         <font>
+            <Font size="52.0" />
+         </font>
+      </Label>
+      <JFXButton layoutX="283.0" layoutY="361.0" onAction="#exit" style="-fx-background-color: GREY;" text="KELUAR" />
+      <JFXButton layoutX="14.0" layoutY="361.0" style="-fx-background-color: GREY;" text="KEMBALI" />
+      <JFXTextArea fx:id="ta" layoutX="160.0" layoutY="184.0" maxWidth="305.0" minWidth="305.0" prefHeight="150.0" prefWidth="305.0" />
+   </children>
+</AnchorPane>

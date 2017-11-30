@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ticketing.football.ArsVsLvpController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="400.0" stroke="BLACK" strokeType="INSIDE" width="600.0" />
+      <ImageView fitHeight="400.0" fitWidth="356.0" layoutX="150.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@g1.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c7c3c382" height="310.0" layoutX="113.0" layoutY="45.0" stroke="BLACK" strokeType="INSIDE" width="399.0" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="101.0" layoutY="76.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="64.0" fitWidth="64.0" layoutX="191.0" layoutY="68.0">
+         <image>
+            <Image url="@arsenal.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="64.0" fitWidth="64.0" layoutX="354.0" layoutY="68.0">
+         <image>
+            <Image url="@lvp.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="52.0" fitWidth="52.0" layoutX="137.0" layoutY="259.0">
+         <image>
+            <Image url="@price-tag.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="45.0" fitWidth="52.0" layoutX="137.0" layoutY="145.0">
+         <image>
+            <Image url="@149363.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="45.0" fitWidth="52.0" layoutX="137.0" layoutY="200.0">
+         <image>
+            <Image url="@88961.png" />
+         </image>
+      </ImageView>
+      <JFXButton layoutX="280.0" layoutY="311.0" onAction="#beli" prefHeight="25.0" prefWidth="64.0" style="-fx-background-color: #c7c3c3;" text="BELI" />
+      <JFXButton layoutX="25.0" layoutY="355.0" onAction="#back" style="-fx-background-color: #c7c3c3;" text="KEMBALI" />
+      <Label layoutX="196.0" layoutY="151.0" text="MINGGU 31 DESEMBER 2017">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="198.0" layoutY="206.0" text="EMIRATES STADIUM">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="208.0" layoutY="262.0" text="\$ 50">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <Label layoutX="280.0" layoutY="71.0" text="Vs">
+         <font>
+            <Font size="41.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="602.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ticketing.football.PilihanLigaController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="408.0" layoutX="-1.0" layoutY="-2.0" stroke="BLACK" strokeType="INSIDE" width="610.0" />
+      <ImageView fitHeight="400.0" fitWidth="327.0" layoutX="150.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@g1.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d4d5d673" height="334.0" layoutX="77.0" layoutY="33.0" stroke="BLACK" strokeType="INSIDE" width="455.0" />
+      <Label layoutX="136.0" layoutY="39.0" prefHeight="59.0" prefWidth="356.0" text="PILIH LIGA" textFill="#120936">
+         <font>
+            <Font name="DFPOP1-W9" size="68.0" />
+         </font>
+      </Label>
+      <JFXButton layoutX="201.0" layoutY="152.0" onAction="#inggris" prefHeight="48.0" prefWidth="251.0" style="-fx-background-color: grey;" text="LIGA INGGRIS" textFill="#02060d">
+         <font>
+            <Font name="525icons" size="21.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="176.0" layoutY="218.0" onAction="#indonesia" prefHeight="43.0" prefWidth="300.0" style="-fx-background-color: grey;" text="LIGA INDONESIA" textFill="#02060d">
+         <font>
+            <Font name="525icons" size="21.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="176.0" layoutY="285.0" onAction="#spanyol" prefHeight="43.0" prefWidth="300.0" style="-fx-background-color: grey;" text="LIGA SPANYOL" textFill="#02060d">
+         <font>
+            <Font name="525icons" size="21.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

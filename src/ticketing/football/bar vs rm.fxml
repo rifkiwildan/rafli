@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="598.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ticketing.football.BarVsRmController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="400.0" stroke="BLACK" strokeType="INSIDE" width="600.0" />
+      <ImageView fitHeight="400.0" fitWidth="437.0" layoutX="163.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@g1.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d6d6d6a8" height="343.0" layoutX="102.0" layoutY="48.0" stroke="BLACK" strokeType="INSIDE" width="405.0" />
+      <Label layoutX="281.0" layoutY="53.0" text="Vs" textFill="#033f4a">
+         <font>
+            <Font size="62.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="52.0" fitWidth="55.0" layoutX="144.0" layoutY="203.0">
+         <image>
+            <Image url="@88961.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="151.0" layoutY="152.0">
+         <image>
+            <Image url="@149363.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="199.0" layoutY="157.0" text="MINGGU 31 DESEMBER 2017">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="201.0" layoutY="213.0" text="STD SI JALAK HARUPAT BANDUNG">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="59.0" fitWidth="55.0" layoutX="144.0" layoutY="261.0">
+         <image>
+            <Image url="@price-tag.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="211.0" layoutY="267.0" text="Rp 35.000">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="101.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="128.0" fitWidth="191.0" layoutX="316.0" layoutY="38.0">
+         <image>
+            <Image url="@Logo%20Persija%20Jakarta.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="90.0" fitWidth="78.0" layoutX="162.0" layoutY="53.0">
+         <image>
+            <Image url="@20130819064044!Logo_Persib.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="14.0" layoutY="348.0" mnemonicParsing="false" onAction="#back" text="KEMBALI" />
+      <Button layoutX="264.0" layoutY="341.0" mnemonicParsing="false" onAction="#beli" prefHeight="31.0" prefWidth="87.0" text="BELI">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

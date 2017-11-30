@@ -1,0 +1,17 @@
+public class Koneksi1 {
+    Connection con;
+    Statement stm;
+    
+    public void config(){
+        try {
+            Class.forName("com.mysql.jdbc.Driver");
+            con=(Connection) DriverManager.getConnection("jdbc:mysql://localhost/sambijajar_village", "root", "");
+            stm = con.createStatement();
+        } catch (ClassNotFoundException | SQLException e) {
+            JOptionPane.showMessageDialog(null, "koneksi gagal "+e.getMessage());
+        }
+    }
+
+    Object connect(String query) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }

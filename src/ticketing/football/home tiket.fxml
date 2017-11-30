@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="428.0" style="-fx-background-color: #07b3da;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ticketing.football.HomeTiketController">
+   <children>
+      <ImageView fitHeight="341.0" fitWidth="282.0" layoutX="73.0" layoutY="52.0">
+         <image>
+            <Image url="@g1.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="44.0" prefHeight="69.0" prefWidth="363.0" text="TIKET TERSEDIA" textFill="#e1e1e1">
+         <font>
+            <Font name="DFPOP1-W9" size="49.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="madrid" layoutX="120.0" layoutY="204.0" onAction="#persibvpersija" prefHeight="30.0" prefWidth="189.0" style="-fx-background-color: #c5c4e0;" text="Persib Vs. Persija" textFill="#105868">
+         <font>
+            <Font name="Times New Roman" size="21.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="arema" layoutX="120.0" layoutY="264.0" onAction="#arema" style="-fx-background-color: #c5c4e0;" text="Arema Vs. Persebaya" textFill="#105868">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="18.0" layoutY="342.0" onAction="#back" prefHeight="28.0" prefWidth="72.0" style="-fx-background-color: #e1e1e1;" text="KEMBALI" />
+   </children>
+</AnchorPane>
